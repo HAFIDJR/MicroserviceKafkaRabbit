@@ -1,0 +1,26 @@
+{
+  "version": 2,
+  "dgSpecHash": "k/yWDQM1uFI=",
+  "success": true,
+  "projectFilePath": "d:\\my\\ApacheKafkaNET\\OrderApi\\OrderApi.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\spvrn\\.nuget\\packages\\amqpnetlite.core\\2.5.2\\amqpnetlite.core.2.5.2.nupkg.sha512",
+    "C:\\Users\\spvrn\\.nuget\\packages\\amqpnetlite.websockets\\2.5.2\\amqpnetlite.websockets.2.5.2.nupkg.sha512",
+    "C:\\Users\\spvrn\\.nuget\\packages\\confluent.kafka\\1.5.1\\confluent.kafka.1.5.1.nupkg.sha512",
+    "C:\\Users\\spvrn\\.nuget\\packages\\librdkafka.redist\\1.5.0\\librdkafka.redist.1.5.0.nupkg.sha512",
+    "C:\\Users\\spvrn\\.nuget\\packages\\microsoft.aspnetcore.openapi\\8.0.6\\microsoft.aspnetcore.openapi.8.0.6.nupkg.sha512",
+    "C:\\Users\\spvrn\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "C:\\Users\\spvrn\\.nuget\\packages\\microsoft.openapi\\1.4.3\\microsoft.openapi.1.4.3.nupkg.sha512",
+    "C:\\Users\\spvrn\\.nuget\\packages\\rabbitmq.amqp.client\\1.0.0\\rabbitmq.amqp.client.1.0.0.nupkg.sha512",
+    "C:\\Users\\spvrn\\.nuget\\packages\\rabbitmq.client\\7.2.1\\rabbitmq.client.7.2.1.nupkg.sha512",
+    "C:\\Users\\spvrn\\.nuget\\packages\\swashbuckle.aspnetcore\\6.4.0\\swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
+    "C:\\Users\\spvrn\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.4.0\\swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
+    "C:\\Users\\spvrn\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.4.0\\swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",
+    "C:\\Users\\spvrn\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.4.0\\swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512",
+    "C:\\Users\\spvrn\\.nuget\\packages\\system.diagnostics.diagnosticsource\\9.0.0\\system.diagnostics.diagnosticsource.9.0.0.nupkg.sha512",
+    "C:\\Users\\spvrn\\.nuget\\packages\\system.io.pipelines\\8.0.0\\system.io.pipelines.8.0.0.nupkg.sha512",
+    "C:\\Users\\spvrn\\.nuget\\packages\\system.memory\\4.5.0\\system.memory.4.5.0.nupkg.sha512",
+    "C:\\Users\\spvrn\\.nuget\\packages\\system.threading.ratelimiting\\8.0.0\\system.threading.ratelimiting.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
