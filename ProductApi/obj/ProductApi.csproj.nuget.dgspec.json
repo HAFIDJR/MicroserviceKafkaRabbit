@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "d:\\my\\ApacheKafkaNET\\ProductApi\\ProductApi.csproj": {}
+    "D:\\my\\ApacheKafkaNET\\ProductApi\\ProductApi.csproj": {}
   },
   "projects": {
-    "d:\\my\\ApacheKafkaNET\\ProductApi\\ProductApi.csproj": {
+    "D:\\my\\ApacheKafkaNET\\ProductApi\\ProductApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\my\\ApacheKafkaNET\\ProductApi\\ProductApi.csproj",
+        "projectUniqueName": "D:\\my\\ApacheKafkaNET\\ProductApi\\ProductApi.csproj",
         "projectName": "ProductApi",
-        "projectPath": "d:\\my\\ApacheKafkaNET\\ProductApi\\ProductApi.csproj",
+        "projectPath": "D:\\my\\ApacheKafkaNET\\ProductApi\\ProductApi.csproj",
         "packagesPath": "C:\\Users\\spvrn\\.nuget\\packages\\",
-        "outputPath": "d:\\my\\ApacheKafkaNET\\ProductApi\\obj\\",
+        "outputPath": "D:\\my\\ApacheKafkaNET\\ProductApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\spvrn\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "d:\\my\\ApacheKafkaNET\\Shared\\Shared.csproj": {
-                "projectPath": "d:\\my\\ApacheKafkaNET\\Shared\\Shared.csproj"
+              "D:\\my\\ApacheKafkaNET\\Shared\\Shared.csproj": {
+                "projectPath": "D:\\my\\ApacheKafkaNET\\Shared\\Shared.csproj"
               }
             }
           }
@@ -67,7 +67,7 @@
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[6.4.0, )"
+              "version": "[6.6.2, )"
             }
           },
           "imports": [
@@ -93,14 +93,14 @@
         }
       }
     },
-    "d:\\my\\ApacheKafkaNET\\Shared\\Shared.csproj": {
+    "D:\\my\\ApacheKafkaNET\\Shared\\Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\my\\ApacheKafkaNET\\Shared\\Shared.csproj",
+        "projectUniqueName": "D:\\my\\ApacheKafkaNET\\Shared\\Shared.csproj",
         "projectName": "Shared",
-        "projectPath": "d:\\my\\ApacheKafkaNET\\Shared\\Shared.csproj",
+        "projectPath": "D:\\my\\ApacheKafkaNET\\Shared\\Shared.csproj",
         "packagesPath": "C:\\Users\\spvrn\\.nuget\\packages\\",
-        "outputPath": "d:\\my\\ApacheKafkaNET\\Shared\\obj\\",
+        "outputPath": "D:\\my\\ApacheKafkaNET\\Shared\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\spvrn\\AppData\\Roaming\\NuGet\\NuGet.Config",

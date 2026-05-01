@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "d:\\my\\ApacheKafkaNET\\Shared\\Shared.csproj": {}
+    "D:\\my\\ApacheKafkaNET\\Shared\\Shared.csproj": {}
   },
   "projects": {
-    "d:\\my\\ApacheKafkaNET\\Shared\\Shared.csproj": {
+    "D:\\my\\ApacheKafkaNET\\Shared\\Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\my\\ApacheKafkaNET\\Shared\\Shared.csproj",
+        "projectUniqueName": "D:\\my\\ApacheKafkaNET\\Shared\\Shared.csproj",
         "projectName": "Shared",
-        "projectPath": "d:\\my\\ApacheKafkaNET\\Shared\\Shared.csproj",
+        "projectPath": "D:\\my\\ApacheKafkaNET\\Shared\\Shared.csproj",
         "packagesPath": "C:\\Users\\spvrn\\.nuget\\packages\\",
-        "outputPath": "d:\\my\\ApacheKafkaNET\\Shared\\obj\\",
+        "outputPath": "D:\\my\\ApacheKafkaNET\\Shared\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\spvrn\\AppData\\Roaming\\NuGet\\NuGet.Config",
