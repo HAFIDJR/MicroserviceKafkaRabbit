@@ -10,7 +10,7 @@ namespace ProductApi.ProductServices
         public async Task AddProduct(Product product)
         {
             Products.Add(product);
-            var result = await producer.ProduceAsync("add-product-topic",new Message<Null, string>{Value = JsonSerializer.Serialize(product)});
+            var result = await producer.ProduceAsync("product-created-topic",new Message<Null, string>{Value = JsonSerializer.Serialize(product)});
 
             if(result.Status != PersistenceStatus.Persisted)
             {
@@ -23,7 +23,7 @@ namespace ProductApi.ProductServices
         public async Task DeleteProduct(int id)
         {
             Products.Remove(Products.FirstOrDefault(p=>p.Id == id)!);
-            await producer.ProduceAsync("delete-product-topic",new Message<Null, string>
+            await producer.ProduceAsync("product-deleted-topic",new Message<Null, string>
             {
                 Value = id.ToString()
             });

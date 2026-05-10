@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 using OrderApi.OrderServices;
+using OrderApi.Services;
 using Shared;
 
 namespace OrderApi.Controllers
@@ -7,31 +8,24 @@ namespace OrderApi.Controllers
     [ApiController]
     [Route("[controller]")]
 
-    public class OrderController(IOrderService orderService) :ControllerBase
+    public class OrderController(OrderService orderService) :ControllerBase
     {
-        [HttpGet("start-consuming-service")]
-        public async Task <IActionResult> StartService()
-        {
-            await orderService.StartConsumingService();
-            return NoContent();
-        }
+        
+    [HttpPost("orders")]
+    public async Task<IActionResult> AddOrder(
+        Order order)
+    {
+        await orderService.AddOrder(order);
 
-        [HttpGet("get-product")]
-        public IActionResult GetProducts()
-        {
-            var products = orderService.GetProducts();
-            return Ok(products);
-        }
+        return Ok("Order Placed");
+    }
 
-        [HttpPost("add-order")]
-        public IActionResult AddOrder(Order order)
-        {
-            orderService.AddOrder(order);
-            return Ok("Ordefer Placed");
-        }
-
-        [HttpGet("order-summary")]
-        public IActionResult GetOrdersSummary()=>Ok(orderService.GetOrderSummaries());
+    [HttpGet("order-summaries")]
+    public IActionResult GetOrderSummaries()
+    {
+        return Ok(
+            orderService.GetOrderSummaries());
+    }
 
         
     }
