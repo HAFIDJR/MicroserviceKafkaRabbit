@@ -1,4 +1,5 @@
 using OrderApi.Kafka.Producers;
+using OrderApi.Messaging.RabbitMQ.Producers;
 using OrderApi.Repositories;
 using Shared;
 using Shared.Events;
@@ -7,7 +8,8 @@ namespace OrderApi.Services;
 
 public class OrderService(OrderRepository orderRepository,
     ProductCacheRepository productRepository,
-    OrderProducer producer)
+    OrderProducer producer,
+    NotificationProducer notificationProducer)
 {
     public async Task AddOrder(Order order)
     {
@@ -27,6 +29,15 @@ public class OrderService(OrderRepository orderRepository,
                 ProductId = order.ProductId,
                 Quantity = order.Quantity,
                 Price = product.Price
+            }
+        );
+
+        await notificationProducer.PublishAsync(
+            new StockUpdatedNotificationEvent
+            {
+                ProductId = order.ProductId,
+                Message =
+            $"Order {order.Id} Created"
             }
         );
     }
